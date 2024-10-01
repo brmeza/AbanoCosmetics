@@ -1,0 +1,22 @@
+
+
+/* contacto*/
+.contact{
+    
+    display: flex;
+    justify-content: flex-end;
+}
+.contact a{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 12px;    
+    margin: 0px 15px;
+
+}
+
+/* barra de busqueda loguin y bolsa*/
+
+
+
+
+

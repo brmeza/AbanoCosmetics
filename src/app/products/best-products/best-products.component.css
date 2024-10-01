@@ -1,0 +1,50 @@
+H2{ 
+    text-align: center;
+    font-size: 37px;
+    font-family: "oswald", sans-serif;  
+    text-decoration: underline;  
+}
+
+.products{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 10px;
+    padding-top: 10px;
+    
+}
+
+.product{
+    display: flex;
+    padding: 40px;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 32px;
+    border: 1px solid #AFAFAF;
+}
+
+.product img{
+    width: 250px;
+}
+
+.product img:hover{
+    transform: scale(1.1);
+}
+
+.product button{
+    background-color: #EE7FA9;
+    color: white;
+    font-size: 20px;
+    font-family: "oswald", sans-serif;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.product button:hover{
+    background-color: #f02446;
+}

@@ -1,0 +1,44 @@
+.subs{
+    height: 156px;
+    background-color: #262626;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px;
+    
+}
+
+h3{
+    font-family: "oswald" , sans-serif;
+    color: white;
+    font-size: 35px;
+
+}
+
+.space{
+    display: flex;
+    align-items: center;
+}
+
+.space input{
+    width: 400px;
+    height: 60px;
+    border: none;
+    padding: 0px 10px;
+    
+}
+
+.space button{
+    width: 150px;
+    height: 60px;
+    background-color: #EB6D9D;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-family: "oswald" , sans-serif;
+    cursor: pointer;
+}
+.space button:hover{
+    background-color: #f02446;
+}
+

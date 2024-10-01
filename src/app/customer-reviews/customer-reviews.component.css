@@ -1,0 +1,75 @@
+H2{ 
+    text-align: center;
+    font-size: 37px;
+    font-family: "oswald", sans-serif;  
+    text-decoration: underline;  
+}
+
+.vineta{
+    font-size: 80px;
+}
+
+
+.reviews{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+
+.review{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    flex-direction: column;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.review img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.calification{
+    display: flex;
+    justify-content: center;
+    color: #F96500;
+}
+
+.review .text{
+    text-align: justify;
+    font-weight: 500;
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 10px;
+}
+
+
+
+.review button{
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: red;
+    border: none;
+    outline: none;   
+    margin: 0 auto;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.review button:hover{
+    transform: scale(1.2);
+}
+
+.review .name{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "oswald", sans-serif;
+    margin-top: 10px;
+}

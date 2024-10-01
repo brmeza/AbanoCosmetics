@@ -1,0 +1,34 @@
+.columns{
+    display: flex;
+    justify-content: space-between;
+    
+    background-color: black;
+    padding: 50px 35px;
+}
+
+.columns div:first-of-type{
+    width: 30%;
+    font-family: "Montserrat", sans-serif;
+}
+
+.colum{
+    color: white;
+}
+
+.colum h3{
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.colum ul{
+    padding: 0;
+}
+
+.colum li{
+    list-style: none;
+    margin-top: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+}
